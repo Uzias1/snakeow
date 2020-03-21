@@ -1,0 +1,48 @@
+*{
+	color: white;
+}
+body {
+	background: url("../img/fondo2.jpg") no-repeat;
+}
+
+div.juego {
+
+}
+
+div.contenedor {
+	width: 100%;
+	margin: 0 auto;
+}
+
+div.juego canvas {
+	box-shadow: 0 0 30px #000;
+}
+
+div.derecha {
+	float: right;
+}
+
+div.izquierda, div.derecha{
+	width: 297px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+div.izquierda {
+	float: left;
+}
+
+ul li.f{
+	padding: 10px 0;
+	padding-left: 91px;
+}
+
+ul li.f {
+	background: url("../img/flechas2.png") no-repeat;
+	height: 200px;
+	text-align: center; 
+}
